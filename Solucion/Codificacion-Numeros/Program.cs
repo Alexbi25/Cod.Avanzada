@@ -24,3 +24,11 @@ foreach (int num in numeros)
     Console.WriteLine(num);
 }
 Console.Clear();
+//Ordenar lal lista de menor a mayor 
+numeros.Sort();
+// Mostrar por consola la lista ordenada
+Console.WriteLine("\nLista de números ordenados de menor a mayor:");
+foreach (int num in numeros)
+{
+    Console.WriteLine(num);
+}
