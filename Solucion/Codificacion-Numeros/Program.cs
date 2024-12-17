@@ -16,3 +16,11 @@ for (int i = 0; i < cantidad; i++)
         numeros.Add(numero);
         Console.Clear();
     }
+}
+//Mostrar la lista generada en la consola
+Console.WriteLine("\nLista de números ingresados:");
+foreach (int num in numeros)
+{
+    Console.WriteLine(num);
+}
+Console.Clear();
