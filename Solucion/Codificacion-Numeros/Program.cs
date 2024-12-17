@@ -25,7 +25,7 @@ foreach (int num in numeros)
 }
 Console.Clear();
 //Ordenar lal lista de menor a mayor 
-numeros.Sort();
+numeros.Sort();//recurri a esta funcion por tiempo me he liado y he entrado en confusion
 // Mostrar por consola la lista ordenada
 Console.WriteLine("\nLista de números ordenados de menor a mayor:");
 foreach (int num in numeros)
